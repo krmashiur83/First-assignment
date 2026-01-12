@@ -38,14 +38,54 @@ justify-content: space-between;
     background-color: #469165;
     padding: 12px 16px; border-radius: 4px;
     gap: 10px;color: #ffffff; cursor: pointer;
-    font-weight:600px; font-size:16px; margin-left:120px;
-    margin-right: auto;
+    font-weight:600px; font-size:16px; margin-left:;
+    margin-right:;
     
 }
 .btn:hover{
     background-color:plum;
+}       
+    /* =====banner section  */
+.banner-containe {
+    text-align: center;padding:115px 120px 178px;
+}
+.ban-btn { font-size: 16px; font-weight: 500; line-height: 100%;text-align: center;
+    border-radius:50px;
+    color:#469165; align-items: center;padding: 15px 15px ;
+}
+.ban-btn img {
+    background-color: #30b868;border-radius:10px;
+    width: 16px;height: 16px; margin-right: 10px;
+}
+.banner-containe h1{
+font-size: 72px; font-weight: bold;height: 700;
+line-height: 84px;color: #ffffff90;
+}
+.banner-containe #btn-text{color: #30b86890;
+    font-size: 72px; font-weight: bold;height: 700;line-height: 84px;
+
+}
+.banner-containe p{ font-size: 18px;
+    font-weight: 400;line-height: 24px;
+    color: #ffffff;}
+
+.btn-primary-2 { display:inline-flex;align-items: center;justify-content: center; gap: 10px;padding: 12px 16px; font-size: 16px;
+     weight: 600px;background-color:#4f6276;color: #ffffff;
+
+
+}
+#btn-primary-1{
+     display:inline-flex;align-items: center;justify-content: center; gap: 10px;padding: 14px 16px; font-size: 18px;
+     weight: 600px;margin-right: 16px;
 }
 /* =======main/common class===== */
-#header {
+#nav,#banner-container{
 width: 85%;max-width: 1360px; transition: .5s;
 }
+
+#banner {
+background-image: url(images/hero-bg.png);
+width:1600px; height: 674px;
+
+}
+ 
