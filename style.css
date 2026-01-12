@@ -71,15 +71,20 @@ line-height: 84px;color: #ffffff90;
 
 .btn-primary-2 { display:inline-flex;align-items: center;justify-content: center; gap: 10px;padding: 12px 16px; font-size: 16px;
      weight: 600px;background-color:#4f6276;color: #ffffff;
-
-
 }
+
+.note-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;padding: 0 auto;
+}
+
 #btn-primary-1{
      display:inline-flex;align-items: center;justify-content: center; gap: 10px;padding: 14px 16px; font-size: 18px;
      weight: 600px;margin-right: 16px;
 }
 /* =======main/common class===== */
-#nav,#banner-container{
+#nav,#banner-container {
 width: 85%;max-width: 1360px; transition: .5s;
 }
 
@@ -89,3 +94,18 @@ width:1600px; height: 674px;
 
 }
  
+/* ======Notes section  */
+.card-box{
+   display: flex;justify-content: space-between;align-items: center; gap:16px; margin-top: 45px;} 
+
+
+#card{
+ height:fixed 300px;
+    padding: 24px;border-radius: 8px;width: 322px;text-align: center;box-shadow:3px 3px 3px 3px ;
+}
+.card-box img {
+    background-color: red;
+}
+.note-container { text-align: center;margin-bottom: 120px;
+
+}
