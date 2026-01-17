@@ -167,7 +167,9 @@ margin: 0 auto;
   box-shadow: 3px 3px 3px 3px;
 }
 .card-box img {
-  background-color: red;
+  background-color:#f95555;
+  border-radius: 50px;
+  width: 60px;
 }
 .note-container {
   text-align: center;
