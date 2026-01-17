@@ -236,26 +236,26 @@ margin: 0 auto;
   color: white;
   text-align: right;
 }
-.footer-containe{
-    display: flex;
+.footer-containe {
+    display:inline-flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer-containe .social-links img {
+.social-links img {
 
   width: 20px;
   height: 20px;
   background-color: white;
   padding: 5px;
   border-radius: 1.5em;
-
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   justify-content: center;
 }
 
-.footer-containe .footer-logo {
+ .footer-logo {
   margin: 120px 120px;
   margin-bottom: 80px;
+ 
 }
 
 .copy-right p {
