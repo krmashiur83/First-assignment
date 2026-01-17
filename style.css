@@ -65,7 +65,14 @@ body {
   color: #469165;
   align-items: center;
   padding: 15px 15px;
+  cursor: pointer;
 }
+.ban-btn:hover {
+background-color: greenyellow;
+transition: .5s;
+}
+
+
 .ban-btn img {
   background-color: #30b868;
   border-radius: 10px;
@@ -103,7 +110,11 @@ body {
   font-size: 16px;
   weight: 600px;
   background-color: #4f6276;
-  color: #ffffff;
+  color: #ffffff;cursor: pointer;
+}
+.btn-primary-2:hover {
+  background-color:darkorange;
+  transition: .5s;
 }
 
 .note-container {
